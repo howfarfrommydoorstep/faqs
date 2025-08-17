@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <title>FAQs</title>
 
-  <!-- === GOOGLE ANALYTICS — INSERTED BY ARYA === -->
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-65E3WHQ7FL"></script>
   <script>
@@ -16,16 +15,75 @@
 
   <style>
     body {
-      font-family: Roboto, sans-serif;
+      font-family: 'Roboto', sans-serif;
       font-size: 14px;
       line-height: 1.6;
       margin: 40px auto;
       max-width: 600px;
       padding: 0 20px;
-      color: #000;
+      background: #14181C;
+      color: #B0B7BC;
     }
+    
     h1 {
-      font-size: clamp(24px, 4vw, 32px);
+      font-family: 'Inter', sans-serif;
+      font-size: clamp(28px, 4vw, 40px);
+      color: #3A96F0;
+      margin-bottom: 2rem;
+      font-weight: 600;
+      text-align: center;
+    }
+    
+    p {
+      margin-bottom: 2rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid rgba(58, 150, 240, 0.15);
+    }
+    
+    p:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+    
+    strong {
+      font-family: 'Inter', sans-serif;
+      font-size: inherit;
+      font-weight: 700;
+      color: #B0B7BC;
+      display: inline-block;
+      margin-bottom: 8px;
+    }
+    
+    a {
+      color: #3A96F0;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+    
+    a:hover {
+      color: #5da8f2;
+      text-decoration: underline;
+    }
+    
+    a:focus {
+      outline: 2px solid #3A96F0;
+      outline-offset: 2px;
+    }
+
+    /* Improve readability on dark background */
+    ::selection {
+      background: #3A96F0;
+      color: #14181C;
+    }
+    
+    /* Ensure good contrast for accessibility */
+    @media (prefers-contrast: high) {
+      body {
+        color: #E5E7EB;
+      }
+      strong {
+        color: #E5E7EB;
+      }
     }
   </style>
 </head>
@@ -34,7 +92,7 @@
   <h1>FAQs</h1>
 
   <p><strong>Where does your data come from?</strong><br>
-  We compile a hand-curated list drawn from public sources: press reports, FOI releases, and corroborating evidence posted online (reviews, social-media images, local news, reader submissions). Each entry is cross-checked against multiple independent clues before it’s added to the map.</p>
+  We compile a hand-curated list drawn from public sources: press reports, FOI releases, and corroborating evidence posted online (reviews, social-media images, local news, reader submissions). Each entry is cross-checked against multiple independent clues before it's added to the map.</p>
   
   <p><strong>How accurate is the map?</strong><br>
   We believe it is the most complete and rigorously checked public list that exists. Over 200 sites are plotted, up from roughly 160 when we launched and more than 500 we originally reviewed. Hundreds of users have contacted us to add or update details. We do not pretend to know every last site, but each pin is added only after it is independently verifiable and can be justified. When fresh evidence shows a site has closed, the marker is removed as soon as possible.</p>
@@ -43,7 +101,7 @@
   We receive communications from contributors whose identities and sources are protected under GDPR and other data-protection regulations. We neither confirm nor deny specific sources.</p>
 
   <p><strong>When and where is my nearest protest?</strong><br>
-  At the moment we are focused on compiling the most accurate hotel data. We are not involved in the organisation of any protests, but we are happy to pass on details of organised, peaceful protests if asked.</p>
+  At the moment we are focused on compiling the most accurate hotel/HMO data. We are not involved in the organisation of any protests, but we are happy to pass on details of organised, peaceful protests if asked.</p>
 
   <p><strong>Can I submit new locations?</strong><br>
   Yes, via the contact form. Please include as much detail as possible.</p>
